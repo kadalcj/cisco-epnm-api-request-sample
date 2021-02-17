@@ -38,6 +38,6 @@ async function getAlarms() {
 ...
 ```
 
-By modify the url by adding `&.sort=-alarmFoundAt`, it will short the data from the latest alarm by `alarmFoundAt` data. And there was many option you can apply to fit your use case.
+Modify the url by adding `&.sort=-alarmFoundAt`, it will sort the data from the latest alarm by `alarmFoundAt` data. And there was many option you can apply to fit your use case.
 
 You can read the [documentation](https://www.cisco.com/c/en/us/support/cloud-systems-management/evolved-programmable-network-epn-manager/products-documentation-roadmaps-list.html) of EPNM REST API for more details.
