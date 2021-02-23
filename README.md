@@ -60,6 +60,9 @@ setImmediate(async function() {
 ```
 By doing that, you only trigger the GET Alarms request.
 
+### Diagram Block
+![image](https://github.com/kadalcj/cisco-epnm-api-request-sample/blob/main/Block%20Diagram%20Axios%20EPNM.jpg)
+
 ### Modify Result
 Result you get from this API is default. You can modify the response by editing the URL. For example:
 
