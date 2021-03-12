@@ -10,7 +10,7 @@ async function getConfigs() {
             auth: configs.auth
         });
 
-        return res.data
+        console.log(res.data);
     } catch(err) {
         console.log(err);
     }
